@@ -8,10 +8,10 @@
 ## Как проверить?
 
 При запросе __curl -i localhost:8000/healthz__ получаем:
-'''bash
+```bash
 HTTP/1.0 200 OK
-'''
+```
 В иных случаях:
-'''bash
+```bash
 HTTP/1.0 404 Not Found
-'''
+```
